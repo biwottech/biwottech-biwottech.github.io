@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from 'react'
+import { useState } from 'react'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Experience from './sections/Experience'
@@ -9,7 +9,7 @@ import SEOHead from './components/SEOHead'
 import FloatingAI from './components/FloatingAI'
 
 function App() {
-  const [showAI, setShowAI] = useState(false)
+  const [, setShowAI] = useState(false)
 
   return (
     <div className="min-h-screen bg-gray-50">
